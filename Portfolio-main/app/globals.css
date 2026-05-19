@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  @apply bg-zinc-950 text-zinc-100 scroll-smooth;
+}
+
+* {
+  @apply border-zinc-800;
+}
+
+.section-wrap {
+  @apply max-w-6xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-2xl sm:text-3xl font-semibold tracking-tight text-zinc-100;
+}
+
+.section-subtitle {
+  @apply text-zinc-400 mt-2 max-w-3xl;
+}
+
+.card-surface {
+  @apply bg-zinc-900/50 border border-zinc-800 rounded-2xl;
+}
